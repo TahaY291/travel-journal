@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  height: 8vh;
+  background-color: orangered;
+  color: white;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  margin: 12px auto;
+}
+.image{
+  width: 250px;
+  height: 250px;
+  border-radius: 6px;
+}
+.location{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.content{
+  margin-left: 12px;
+  margin-top: 25px;
+}
+.visit{
+  margin-top: 5px;
+  margin-bottom: 6%;
+}
+.date{
+  margin-bottom: 8px;
+}
+.dec{
+  line-height:25px;
+}
+.star{
+  width: 10px;
+}
+a{
+  color: blue;
+
+}
+a:active{
+  color: red;
+}
